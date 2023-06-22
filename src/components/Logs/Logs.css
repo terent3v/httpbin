@@ -1,0 +1,47 @@
+.collapse-button {
+  border: 0;
+  background-color: #eee;
+  padding: 10px 0;
+  width: 120px;
+  cursor: pointer;
+}
+
+.logs-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logs-content {
+  transition: max-height 0.2s ease-in;
+  overflow: hidden;
+}
+
+.logs-content.closed {
+  max-height: 0;
+}
+
+.logs-content.open {
+  max-height: 400px;
+}
+
+.logs-table {
+  overflow: auto;
+  height: 400px;
+}
+
+.logs-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.logs-table table th {
+  text-align: left;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.logs-table table td {
+  border: 1px solid;
+  padding: 5px;
+}

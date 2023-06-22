@@ -1,0 +1,21 @@
+.send-request-button {
+  font-size: 18px;
+  padding: 15px 30px;
+  background-color: rgb(203, 24, 234);
+  border-radius: 8px;
+  color: white;
+  border: 0;
+  transition: all .3s cubic-bezier(0, 0, .5, 1);
+  cursor: pointer;
+}
+
+.send-request-button:hover {
+  box-shadow: 5px 2px 2px rgb(255, 129, 129);
+  background-color: rgb(128, 0, 255);
+}
+
+.send-request-button:active {
+  border: 1;
+  background-color: rgb(38, 0, 255);
+  box-shadow: 7px 3px 3px rgb(255, 129, 129);
+}
